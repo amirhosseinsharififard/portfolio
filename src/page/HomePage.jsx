@@ -1,10 +1,13 @@
-import { Grid } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import React from 'react';
+import FirstSectionHomePage from '../components/FirstSectionHomePage';
 
 const HomePage = () => {
     return (
     
-      <Grid container >a</Grid>
+     <>
+      <FirstSectionHomePage/>
+     </>
     );
 }
 
