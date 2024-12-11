@@ -1,0 +1,52 @@
+.dropDown {
+    position: relative;
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    z-index: 1000;
+  }
+
+  .dropDown:hover .dropDownContent {
+    display: block;
+  }
+
+  .dropDownContent a {
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #29294b;
+    display: block;
+  }
+  
+  .dropDownContent a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .rotate{
+    transition: transform 0.3s ease;
+  }
+
+  .rotate:hover{
+    transform: rotate(90deg)
+  }
+
+  .hoverLink { 
+    background:inherit;
+    color:black ;
+    border-radius:16px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-content: center; 
+    transition: all ease-in 200ms; }
+
+  .hoverLink:hover {
+      background-color: gray;
+      color: white;
+  }
