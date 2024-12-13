@@ -1,0 +1,8 @@
+.link {
+    text-decoration: none;
+    margin: 1rem;
+    background-color: #2e2e2e;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 30px;
+}
