@@ -14,7 +14,7 @@ const ExpelorTrendingTopics = () => {
     "news",
   ];
   return (
-    <>
+    <Grid container>
       <Typography sx={{m:"4rem auto 0"}}>Explore Trending Topics</Typography>
       <Box mt={5}>
         <Grid container>
@@ -26,7 +26,7 @@ const ExpelorTrendingTopics = () => {
           ))}
         </Grid>
       </Box>
-    </>
+    </Grid>
   );
 };
 
