@@ -38,8 +38,8 @@ const PostHomePage = ({data}) => {
         />
 
         <Typography
-          variant="subtitle2"
-          component="subtitle2"
+          variant='p'
+          component='p'
           position={"absolute"}
           bgcolor={"white"}
           p='0rem .5rem .3rem'

@@ -21,10 +21,10 @@ const AboutSideBar = () => {
           <Link style={{textDecoration:"none" ,color:"black"}}>
             <Typography variant={'h6'} component={'h6'} sx={{fontWeight:"900",fontSize:"18px" }}>Amir Hossein Sharifi Fard</Typography>
           </Link>
-          <Typography variant="body2" component={'body2'} color="#696981" fontWeight={"500"}>Reflective Blogger</Typography>
+          <Typography variant='p' component='p' color="#696981" fontWeight={"500"}>Reflective Blogger</Typography>
         </Box>
       </Stack>
-      <Typography component={'body'} variant="body" color="#696981" mt={3} mb={2}>
+      <Typography component='p' variant="p" color="#696981" mt={3} mb={2}>
         Ethan Caldwell shares thoughtful insights and reflections on life,
         culture, and personal growth. His work explores the intersections of
         creativity and experience, offering readers unique perspectives.

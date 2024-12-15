@@ -94,17 +94,7 @@ const Data = [
     category: "sprot",
     timeForRead: "4 min",
   },
-  {
-    id: 1,
-    writer: "Ethan Caldwell",
-    date: "September 24, 2024",
-    title: "Key Sports Trends for 2024: From AI to Virtual Reality",
-    description:
-      "Dive into the key sports trends like AI and virtual reality set to redefine the sports industry in 2024.",
-    image: imageDemo,
-    category: "sprot",
-    timeForRead: "4 min",
-  },
+
   {
     id: 9,
     writer: "Ethan Caldwell",
