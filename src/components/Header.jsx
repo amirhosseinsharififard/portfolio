@@ -10,6 +10,12 @@ import styled from "@emotion/styled";
 
 import Switch from "@mui/material/Switch";
 
+const StyledButton = styled(Button)({
+  background: "linear-gradient(180deg, #9895ff 0%, #514dcc 100%)",
+  width: "100%",
+  height: "20%",
+  padding: ".3rem .7rem",
+});
 const MaterialUISwitch = styled(Switch)(({theme}) => ({
   width: 62,
   height: 34,
@@ -213,17 +219,15 @@ const Header = () => {
         <Link className={styles.hoverLink}>
           <SearchIcon />
         </Link>
-        <Box>
-          <span
-            style={{border: ".5px solid gray", opacity:"20%"}}
-          />
+        <Box display={"flex"}>
+          <span style={{border: ".5px solid gray", opacity: "20%"}} />
           <FormControlLabel
             control={<MaterialUISwitch sx={{m: 1}} defaultChecked />}
             onChange={() => console.log("switch work")}
           />
-          <Button variant='text' color='default'>
+          <StyledButton variant='text' color='default'>
             Buy Now
-          </Button>
+          </StyledButton>
         </Box>
       </Grid>
     </Grid>

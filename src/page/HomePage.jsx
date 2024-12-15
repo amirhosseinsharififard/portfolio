@@ -2,7 +2,9 @@ import ExpelorTrendingTopics from "../components/ExpelorTrendingTopics";
 import FirstSectionHomePage from "../components/FirstSectionHomePage";
 import {Grid} from "@mui/material";
 import PostHomePage from "../components/PostHomePage";
-import imageDemo from "../../assets/demo-image-0038-1248x702.webp"
+import imageDemo from "../../assets/demo-image-0038-1248x702.webp";
+import SideBarHomePage from "../components/SideBarHomePage";
+// TODO dataye makhsose dorost konm
 const Data = [
   {
     id: 1,
@@ -152,18 +154,18 @@ const Data = [
 const HomePage = () => {
   return (
     <>
-      <FirstSectionHomePage />
-      <ExpelorTrendingTopics />
-      <Grid container>
-        <Grid item md={8} xs={12}>
+      {/* <FirstSectionHomePage />
+      <ExpelorTrendingTopics /> */}
+      <Grid container display={'flex'} spacing={2}>
+        <Grid item md={8} xs={12} >
+          {/* TODO Dark mode ro toye proje eemal konam  */}
           {Data.map((item) => (
-            <PostHomePage key={item.id} data={item}/>
+            <PostHomePage key={item.id} data={item} />
           ))}
         </Grid>
-        <Grid item md={4} sx={{ display: { xs: 'none', md: 'block' } }}>
-  slam
-</Grid>
-
+        <Grid item md={4} sx={{display: {xs: "none", md: "block",maxWidth:"90%" }}}>
+          <SideBarHomePage />
+        </Grid>
       </Grid>
     </>
   );
