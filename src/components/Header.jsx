@@ -213,13 +213,13 @@ const Header = () => {
       <Grid
         item
         display='flex'
-        justifyContent={"space-evenly"}
+        justifyContent={"end"}
         alignItems={"center"}
         md={4}>
         <Link className={styles.hoverLink}>
           <SearchIcon />
         </Link>
-        <Box display={"flex"}>
+        <Box display={"flex"} >
           <span style={{border: ".5px solid gray", opacity: "20%"}} />
           <FormControlLabel
             control={<MaterialUISwitch sx={{m: 1}} defaultChecked />}
