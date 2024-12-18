@@ -25,7 +25,7 @@ const data = [
 
 const FeaturedPosts = () => {
   return (
-    <Box m={"2rem 0"}>
+    <Box m={"2rem 0"} >
       <Typography
         variant='h2'
         component={"h2"}

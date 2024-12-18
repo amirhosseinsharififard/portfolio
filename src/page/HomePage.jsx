@@ -153,7 +153,7 @@ const HomePage = () => {
             <PostHomePage key={item.id} data={item} />
           ))}
         </Grid>
-        <Grid item md={4} sx={{display: {xs: "none", md: "block",maxWidth:"90%" }}}>
+        <Grid item md={4} sx={{display: {xs: "none", md: "block",maxWidth:"90%", } ,mt:"2rem"}}>
           <SideBarHomePage />
         </Grid>
       </Grid>

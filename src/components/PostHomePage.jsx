@@ -23,10 +23,11 @@ const PostHomePage = ({data}) => {
     <Box
       display={"flex"}
       flexDirection={"row"}
-      borderBottom={"1px solid rgba(0,0,0,.2)"}
+      borderBottom={"1px solid rgba(0,0,0,.1)"}
       mt={4}
       mb={4}
-      pb={4}>
+      pb={4}
+      width='95%'>
       <Stack position={"relative"} width={"100%"}>
         <img
           src={image}
@@ -43,7 +44,7 @@ const PostHomePage = ({data}) => {
           position={"absolute"}
           bgcolor={"white"}
           p='0rem .5rem .3rem'
-          m={'auto'}
+          m={"auto"}
           borderRadius={2}
           top='1rem'
           textTransform={"uppercase"}
@@ -68,7 +69,7 @@ const PostHomePage = ({data}) => {
               color: "#29294b",
               "&:hover": {
                 color: "#5955d1",
-                fontSize:"24px"
+                fontSize: "24px",
               },
             }}>
             {title}

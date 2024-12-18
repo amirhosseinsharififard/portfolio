@@ -10,7 +10,7 @@ const TechnologiesSideBarHomePage = () => {
         borderRadius: "16px",
         padding: "1rem",
       }}>
-      <Typography textTransform={"uppercase"} fontWeight={"bold"} mb='2rem'>
+      <Typography textTransform={"uppercase"} fontWeight={"bold"} mb='1rem' color='rgb(105, 105, 12' fontSize={12}>
         Technologies
       </Typography>
       {i.map((item) => (
